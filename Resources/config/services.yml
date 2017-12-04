@@ -1,0 +1,4 @@
+services:
+    websolutio_blog.portfolio_model:
+        class: Websolutio\BlogBundle\Model\PortfolioModel
+        arguments: ["@doctrine.orm.entity_manager"]
